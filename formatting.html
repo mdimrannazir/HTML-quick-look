@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 contenteditable="True" dir="rtl">Formatting</h1>
+    <h3 style="text-align: center; background-color: black; color: white;">This is <b>bold but no effect</b></h3>
+
+
+    <picture>
+        <source media="(max-width: 600px)" srcset="./download.jpg">
+        <img src="./img.jpg" alt="" width="400px">
+    </picture>
+
+    <!-- Image Map Generator -->
+    <img src="img.jpg" usemap="#image-map">
+
+    <map name="image-map">
+        <area onclick="flower()" target="" alt="" title="" href="" coords="1227,546,4285,2861" shape="rect">
+    </map>
+
+
+
+    <P>
+    <blockquote cite="Imran">
+        My self Imran
+    </blockquote>
+    <abbr title="ImranNazir">IN</abbr>
+    </P>
+
+    <ul>
+        <li data-id="248">Home</li>
+        <li data-id="249">About</li>
+        <li>Contact</li>
+        <li>Terms</li>
+    </ul>
+    <script>
+        function flower() {
+            alert("Clicked on flower")
+        }
+    </script>
+</body>
+
+</html>
